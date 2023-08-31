@@ -8,14 +8,18 @@ import {
   Subscribe,
   SuperQuality
 } from './sections';
+import Nav from './components/Nav';
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <main>
-        <section className='xl:padding-1 wide:padding-r padding-b'>
+      <header className='padding-x absolute py-8 z-10 w-full'>
+        <Nav />
+      </header>
+      <main className='relative'>
+        <section className='xl:padding-l wide:padding-r padding-b'>
           <Hero />
         </section>
         <section className='padding'>
