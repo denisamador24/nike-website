@@ -28,6 +28,12 @@ function App() {
         <section className='padding'>
           <SuperQuality />
         </section>
+        <section className='padding-x py-10'>
+          <Services />
+        </section>
+        <section className='padding'>
+          <SpecialOffer />
+        </section>
         <section className='bg-pale-blue'>
           <CostumerReviews />
         </section>
@@ -35,9 +41,9 @@ function App() {
           <Subscribe />
         </section>
       </main>
-      <footer className='bg-black padding-x padding-t pb-8'>
+      <div className='bg-black padding-x padding-t pb-8'>
         <Footer />
-      </footer>
+      </div>
     </>
   )
 }
